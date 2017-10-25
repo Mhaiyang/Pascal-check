@@ -6,6 +6,7 @@
 #include <string>
 
 using namespace std;
+
 stack<string> check;
 
 void keyWord(string temp, int line)
@@ -123,7 +124,7 @@ void judgePac(string file)
 
 int main()
 {
-  //cout << "21709155    " << "梅海洋    " << "计算机科学与技术学院" << "\n";
+  	//cout << "21709155    " << "梅海洋    " << "计算机科学与技术学院" << "\n";
 	judgePac("test_pascal.pas");            // 执行判定程序
 	cout << "Checking finished!" << endl;
 
